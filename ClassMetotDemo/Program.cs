@@ -23,15 +23,22 @@ namespace ClassMetotDemo
             musteriManager.MusteriEkle(Musteri1);
             musteriManager.MusteriEkle(Musteri2);
 
+           
+
             Musteri[] musteriler = new Musteri[] { Musteri1, Musteri2 };
 
-            foreach (var benimmusteri in musteriler)
+         /*   foreach (var benimmusteri in musteriler)
             {
                 Console.WriteLine(benimmusteri.Id);
                 Console.WriteLine(benimmusteri.MusteriAd);
                 Console.WriteLine(benimmusteri.MusteriSoyad);
                 Console.WriteLine(benimmusteri.Yas);
-            }
+            }  */
+
+            musteriManager.MusteriListele(musteriler);
+
+
+            musteriManager.MusteriSil(Musteri1);
         }
     }
 }

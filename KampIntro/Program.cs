@@ -16,6 +16,7 @@ namespace KampIntro
             foreach (string herhangi in kurslar)
                 
             {
+                Console.WriteLine("Hello");
                 Console.WriteLine(herhangi);
 
             }
