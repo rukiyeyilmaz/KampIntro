@@ -17,6 +17,7 @@ namespace KampIntro
                 
             {
                 Console.WriteLine("Hello");
+                Console.WriteLine("Hello");
                 Console.WriteLine(herhangi);
 
             }
